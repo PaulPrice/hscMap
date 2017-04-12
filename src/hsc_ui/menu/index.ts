@@ -1,0 +1,5 @@
+export const MenuBar = require('./menu_bar.vue')
+export const MenuBarItem = require('./menu_bar_item.vue')
+export const Menu = require('./menu.vue')
+export const MenuItem = require('./menu_item.vue')
+export const Divider = require('./divider.vue')

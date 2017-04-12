@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>hscMap</title>
+    <style>
+        body {
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* loader */
+        /* https://projects.lukehaas.me/css-loaders/ */
+        .loader,
+        .loader:after {
+            border-radius: 50%;
+            width: 10em;
+            height: 10em;
+        }
+        
+        .loader {
+            margin: 60px auto;
+            position: relative;
+            border: 1.1em solid rgba(255, 255, 255, 0.2);
+            border-left: 1.1em solid #ffffff;
+            animation: load8 1s infinite linear;
+        }
+        
+        @keyframes load8 {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loader"></div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

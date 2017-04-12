@@ -1,0 +1,3634 @@
+{
+  "udeep-8523": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 10100, 
+      "CRVAL1": 34.2148760330578, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9317": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 134.814814814815, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-16973": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 52.8099173553719, 
+      "CRPIX1": 6100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 215.03355704698, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "udeep-8524": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 10100, 
+      "CRVAL1": 35.702479338843, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "wide-8524": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 35.702479338843, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8525": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 37.1900826446281, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8526": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 10100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 38.6776859504132, 
+      "NAXIS1": 28100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8520": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 29.7520661157025, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8521": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 31.2396694214876, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8522": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 32.7272727272727, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8523": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 34.2148760330578, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "udeep-10055": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 3.71900826446281, 
+      "CRPIX1": 14100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 150.247933884298, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "udeep-10054": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 148.760330578512, 
+      "NAXIS1": 4100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 4100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9695": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 334.814814814815, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9220": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 351.074380165289, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "wide-8280": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 31.3692946058091, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-17129": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 54.297520661157, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 240.0, 
+      "NAXIS1": 20100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9936": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 333.223140495868, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9937": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 334.710743801653, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9938": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 336.198347107438, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9939": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 337.685950413223, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "udeep-9571": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": -5900, 
+      "CRPIX2": -13900, 
+      "CRVAL1": 151.111111111111, 
+      "NAXIS1": 12100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 4100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-15833": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 42.396694214876, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 2100, 
+      "CRVAL1": 248.618784530387, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-15832": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 42.396694214876, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 2100, 
+      "CRVAL1": 246.629834254144, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-15831": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 42.396694214876, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 2100, 
+      "CRVAL1": 244.640883977901, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-15830": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 42.396694214876, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -5900, 
+      "CRVAL1": 242.651933701657, 
+      "NAXIS1": 8100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 12100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9348": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 180.740740740741, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-8767": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 14100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 37.1900826446281, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-17131": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 54.297520661157, 
+      "CRPIX1": 10100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 245.0, 
+      "NAXIS1": 28100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "deep-17130": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 54.297520661157, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 242.5, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9941": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 14100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 340.661157024793, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9940": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 339.173553719008, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9814": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 2100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 151.735537190083, 
+      "NAXIS1": 20100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "udeep-9570": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -13900, 
+      "CRVAL1": 149.62962962963, 
+      "NAXIS1": 20100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 4100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9318": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 14100, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 136.296296296296, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9570": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 2100, 
+      "CRVAL1": 149.62962962963, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9465": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 10100, 
+      "CRVAL1": 354.074074074074, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "wide-8282": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 34.356846473029, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9463": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 351.111111111111, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "deep-9462": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 349.62962962963, 
+      "NAXIS1": 8100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28200
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9314": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 130.37037037037, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9315": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 131.851851851852, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9316": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 133.333333333333, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-16972": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 52.8099173553719, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 212.61744966443, 
+      "NAXIS1": 12100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8768": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": -5900, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 38.6776859504132, 
+      "NAXIS1": 12100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8762": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 29.7520661157025, 
+      "NAXIS1": 8100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8763": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 31.2396694214876, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8766": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 35.702479338843, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8767": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 37.1900826446281, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8764": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 32.7272727272727, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8765": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 34.2148760330578, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-8282": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -13900, 
+      "CRVAL1": 34.356846473029, 
+      "NAXIS1": 4100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 4100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-R", 
+      "HSC-Y"
+    ]
+  }, 
+  "deep-8283": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 35.850622406639, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-8284": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": -13900, 
+      "CRPIX2": -13900, 
+      "CRVAL1": 37.344398340249, 
+      "NAXIS1": 4100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 4100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9706": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 351.111111111111, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "deep-9707": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 352.592592592593, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "deep-8765": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 34.2148760330578, 
+      "NAXIS1": 8100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9708": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 354.074074074074, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9558": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 131.851851851852, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9559": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 133.333333333333, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9557": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 130.37037037037, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9374": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 219.259259259259, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9804": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 14100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 136.859504132231, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9375": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 6100, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 220.740740740741, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9800": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 130.909090909091, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9801": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 132.396694214876, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9802": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 133.884297520661, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9803": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 135.371900826446, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9372": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 216.296296296296, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9373": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 217.777777777778, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-10055": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 150.247933884298, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "deep-10054": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 148.760330578512, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-8283": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 35.850622406639, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-10056": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 3.71900826446281, 
+      "CRPIX1": 2100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 151.735537190083, 
+      "NAXIS1": 20100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-8285": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 10100, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 38.8381742738589, 
+      "NAXIS1": 28100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8284": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 37.344398340249, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-8523": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 34.2148760330578, 
+      "NAXIS1": 8100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9569": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 2100, 
+      "CRVAL1": 148.148148148148, 
+      "NAXIS1": 12100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-8525": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 14100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 37.1900826446281, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-8524": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -5.20661157024794, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 35.702479338843, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9370": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 10100, 
+      "CRVAL1": 213.333333333333, 
+      "NAXIS1": 12100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9371": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 214.814814814815, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9562": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 6100, 
+      "CRVAL1": 137.777777777778, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 24100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9561": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 136.296296296296, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9560": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 134.814814814815, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-16985": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 52.8099173553719, 
+      "CRPIX1": 6100, 
+      "CRPIX2": -5900, 
+      "CRVAL1": 244.026845637584, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 12100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "deep-16984": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 52.8099173553719, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -5900, 
+      "CRVAL1": 241.610738255034, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 12100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-8281": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 32.8630705394191, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9618": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": -5900, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 220.740740740741, 
+      "NAXIS1": 12100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 12100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-16010": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 43.8842975206612, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 246.101694915254, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-16011": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 43.8842975206612, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 248.135593220339, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-8766": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 35.702479338843, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9613": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 213.333333333333, 
+      "NAXIS1": 12100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9615": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 216.296296296296, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9614": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 214.814814814815, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9617": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 219.259259259259, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9616": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 217.777777777778, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9589": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 177.777777777778, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "udeep-9814": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": -9900, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 151.735537190083, 
+      "NAXIS1": 8100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28200
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "udeep-9812": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 148.760330578512, 
+      "NAXIS1": 12100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "udeep-9813": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 150.247933884298, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "deep-9812": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 148.760330578512, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9347": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 179.259259259259, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9346": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 177.777777777778, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9813": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 150.247933884298, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-16821": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 51.3223140495868, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 212.727272727273, 
+      "NAXIS1": 8100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9349": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 10100, 
+      "CRPIX2": 14100, 
+      "CRVAL1": 182.222222222222, 
+      "NAXIS1": 28100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 32100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-16822": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 51.3223140495868, 
+      "CRPIX1": 2100, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 215.064935064935, 
+      "NAXIS1": 20100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-8279": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -6.69421487603305, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 29.8755186721992, 
+      "NAXIS1": 20100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "udeep-8766": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 35.702479338843, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "udeep-8765": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -3.71900826446281, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 34.2148760330578, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "deep-9571": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 14100, 
+      "CRPIX2": 2100, 
+      "CRVAL1": 151.111111111111, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-17270": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 55.7851239669422, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 240.863309352518, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "deep-17271": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 55.7851239669422, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 243.453237410072, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "deep-17272": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 55.7851239669422, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 246.043165467626, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 20100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9935": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 2.23140495867768, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 331.735537190083, 
+      "NAXIS1": 28100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-17407": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 57.2727272727273, 
+      "CRPIX1": -1900, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 244.477611940299, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "deep-17406": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 57.2727272727273, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 241.791044776119, 
+      "NAXIS1": 24100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9592": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 10100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 182.222222222222, 
+      "NAXIS1": 28100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9590": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 179.259259259259, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9591": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 180.740740740741, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9451": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -1900, 
+      "CRVAL1": 333.333333333333, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9693": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 331.851851851852, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9450": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -1900, 
+      "CRVAL1": 331.851851851852, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9221": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -2.23140495867768, 
+      "CRPIX1": 14100, 
+      "CRPIX2": -9900, 
+      "CRVAL1": 352.561983471074, 
+      "NAXIS1": 32100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 8100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9694": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 333.333333333333, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9697": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 337.777777777778, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9696": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 336.296296296296, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9699": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 10100, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 340.740740740741, 
+      "NAXIS1": 28100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9698": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 0.74380165289257, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 339.259259259259, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "deep-9464": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 352.592592592593, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 36000
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z", 
+      "NB0816", 
+      "NB0921"
+    ]
+  }, 
+  "wide-9453": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -1900, 
+      "CRVAL1": 336.296296296296, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9452": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -1900, 
+      "CRVAL1": 334.814814814815, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-16009": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 43.8842975206612, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 18000, 
+      "CRVAL1": 244.067796610169, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 28100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-16008": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": 43.8842975206612, 
+      "CRPIX1": 18000, 
+      "CRPIX2": 6100, 
+      "CRVAL1": 242.033898305085, 
+      "NAXIS1": 8100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16200
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9456": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": -1900, 
+      "CRPIX2": -1900, 
+      "CRVAL1": 340.740740740741, 
+      "NAXIS1": 16100, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9455": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -1900, 
+      "CRVAL1": 339.259259259259, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }, 
+  "wide-9454": {
+    "wcsInfo": {
+      "CD1_2": 0.0, 
+      "CD1_1": -4.66666666666667e-05, 
+      "CRVAL2": -0.743801652892557, 
+      "CRPIX1": 18000, 
+      "CRPIX2": -1900, 
+      "CRVAL1": 337.777777777778, 
+      "NAXIS1": 36000, 
+      "CUNIT2": "deg", 
+      "NAXIS": 2, 
+      "CD2_1": 0.0, 
+      "CTYPE2": "DEC--TAN", 
+      "CTYPE1": "RA---TAN", 
+      "CD2_2": 4.66666666666667e-05, 
+      "CUNIT1": "deg", 
+      "NAXIS2": 16100
+    }, 
+    "filters": [
+      "HSC-G", 
+      "HSC-I", 
+      "HSC-R", 
+      "HSC-Y", 
+      "HSC-Z"
+    ]
+  }
+}
