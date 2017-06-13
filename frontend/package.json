@@ -2,6 +2,9 @@
   "name": "hscmap",
   "version": "1.0.0",
   "devDependencies": {
+    "@types/gl-matrix": "^2.2.34",
+    "@types/sprintf-js": "0.0.27",
+    "@types/text-encoding": "0.0.30",
     "autoprefixer": "^7.1.1",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
@@ -13,11 +16,15 @@
     "babel-runtime": "^6.23.0",
     "css-loader": "^0.28.4",
     "file-loader": "^0.11.1",
+    "gl-matrix": "^2.3.2",
     "node-sass": "^4.5.3",
+    "path-to-regexp": "^1.7.0",
     "postcss": "^6.0.1",
     "pug": "^2.0.0-rc.1",
     "raw-loader": "^0.5.1",
     "sass-loader": "^6.0.5",
+    "setimmediate": "^1.0.5",
+    "sprintf-js": "^1.1.1",
     "style-loader": "^0.18.1",
     "ts-loader": "^2.1.0",
     "tslib": "^1.7.1",
@@ -30,6 +37,15 @@
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^2.0.3",
+    "worker-loader": "^0.8.0",
+    "@types/tinycolor2": "^1.1.1",
+    "csv-parse": "^1.2.0",
+    "csv-stringify": "^1.0.4",
+    "gzip-js": "^0.3.2",
+    "install": "^0.10.1",
+    "npm": "^5.0.3",
+    "simple-color-picker": "^0.1.2",
+    "text-encoding": "^0.6.4"
   }
 }
