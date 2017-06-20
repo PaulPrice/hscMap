@@ -1,6 +1,7 @@
 # hscMap3
 
-[Working DEMO](http://hscmap.mtk.nao.ac.jp/bleeding-edge/)
+ * [Working DEMO](http://hscmap.mtk.nao.ac.jp/bleeding-edge/)
+ * This software is for expoloring sky images of [Hyper Suprime-Cam Subaru Strategic Program](http://hsc.mtk.nao.ac.jp/ssp/)
 
 ## Install
 1. Install prerequisites
