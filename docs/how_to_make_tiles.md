@@ -39,11 +39,11 @@
     ```sh:install-tileMaker.sh
     git clone https://github.com/michitaro/hscMap
     cd backend/tileMaker
-    make -B GCC_DIR=$HOME/hscMap SFITSIO_DIR=$HOME/hscMap
+    make GCC_DIR=$HOME/hscMap SFITSIO_DIR=$HOME/hscMap
     ```
 1. Make tiles
     ```
     cd backend/tileMaker
-    python tileMaker.py --outDir test --inDir /path/to/pipeline/output --filters CLAUDS-U --tracts 10054 10053
+    python tileMaker.py --outDir tile_data --inDir /path/to/pipeline/output --filters CLAUDS-U --tracts 10054 10053
     # /path/to/pipeline/output is a directory that includes directory "deepCoadd"
     ```
