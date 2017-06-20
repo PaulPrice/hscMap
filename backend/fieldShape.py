@@ -93,9 +93,6 @@ def fastHeader(fname, hduIndex):
     def processIo(io):
         for i in range(hduIndex + 1):
             header = StringIO()
-            bitpix = 8
-            naxes = 0
-            naxis = 0
             cardIndex = 0
             exitHeader = False
             while True:
