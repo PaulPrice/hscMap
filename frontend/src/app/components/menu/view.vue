@@ -26,7 +26,8 @@ xMenuBarItem(label="View")
                 { klass: 'DynamicGridLayer', name: 'Small Grid', accessKey: 'alt+D' },
                 { klass: 'ConstellationsLayer', name: 'Constellations', accessKey: 'alt+C' },
                 { klass: 'ConstellationNamesLayer', name: 'Constellation Names', accessKey: 'shift+alt+C' },
-                { klass: 'ConstellationJapaneseNamesLayer', name: '星座名', accessKey: 'shift+ctrl+J' },
+                { klass: 'ConstellationJapaneseNamesLayer', name: '星座名' },
+                { klass: 'ConstellationKanjiJapaneseNamesLayer', name: '星座名(漢字)', accessKey: 'shift+ctrl+J' },
                 { klass: 'SspSurveyAreaLayer', name: 'SSP Suvey Area', accessKey: "shift+alt+F" },
                 { klass: 'SspFieldNameLayer', name: 'SSP Field Names', accessKey: "alt+F" },
                 { klass: 'SspImageLayer', name: 'SSP Image' },
@@ -69,6 +70,7 @@ xMenuBarItem(label="View")
         each s in scales
             xMenuItem&attributes(s)
     xMenuItem(label="North Up", accessKey="N", @click="currentFrame.jumpTo({ roll: 0 })")
+    xMenuItem(label="Go To Coordinates", accessKey="ctrl+G", @click="goToCoordinates")
     xDivider
     xMenuItem(label="Lock", :hasChildren="true")
         xMenuItem(label="WCS", :checked="$root.s.viewState.lock.wcs", @click="toggle($root.s.viewState.lock, 'wcs')")
@@ -90,8 +92,9 @@ xMenuBarItem(label="View")
     xMenuItem(
         label="Fullscreen", accessKey="F",
         @click="$root.s.viewState.toggleFullscreen()",
-        :checked="$root.s.viewState.fullscreen")
-    xDivider
+        :checked="$root.s.viewState.fullscreen",
+        :immediate="true")
+    //- xDivider
     //- xMenuItem(:label="`Jump Duration: ${jumpDurationDisplay}s`", :disabled="true")
     //- xMenuItem(:disabled="true")
     //-     template(slot="label")
@@ -102,7 +105,7 @@ xMenuBarItem(label="View")
 <script>
 import { CameraMode, math, GridMode } from 'stellar-globe'
 import { sprintf } from 'sprintf-js'
-
+import { goToCoordinates } from './go_to_coordinate.ts'
 
 export default {
     created() {
@@ -120,6 +123,9 @@ export default {
         toggle(o, p) {
             o[p] = !o[p]
         },
-    },
+        goToCoordinates() {
+            goToCoordinates(this.currentFrame)
+        }
+    }
 }
 </script>

@@ -102,11 +102,11 @@ export class SspImageLayer extends TextureTileLayer {
     }
 
     static attributions = [
-        // {
-        //     which: 'Images in Green Frames',
-        //     label: 'HSC SSP',
-        //     link: 'http://hsc.mtk.nao.ac.jp/ssp/',
-        // }
+        {
+            which: '',
+            label: 'HSC SSP',
+            link: 'http://hsc.mtk.nao.ac.jp/ssp/',
+        }
     ]
 }
 

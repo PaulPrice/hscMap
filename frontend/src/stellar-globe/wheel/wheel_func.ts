@@ -42,32 +42,39 @@ abstract class EventFilter {
 
 
 const MIN_INTERVAL = 20
-const maxV = 4
+const RESET_DURATION = 100
+const maxV = 2
 
 class InertialEventFilter extends EventFilter {
     animation: MotionAnimation | undefined
     mouse = { x: -1, y: -1 }
-    a = 0.45
+    a = 0.35
     vy = 0
-    lastTime = 0
+    lastA = 0
     lastDeltaY = 0
-    k = 0.93
+    lastKick = 0
+    k = 0.9
 
     wheel(ev: WheelEvent) {
-        let now = time.now()
-        if (now - this.lastTime < MIN_INTERVAL)
+        const now = time.now()
+        if (now - this.lastKick > RESET_DURATION) {
+            this.lastA = 0
+            this.lastDeltaY = 0
+        }
+        this.lastKick = now
+        if (now - this.lastA < MIN_INTERVAL)
             return
-        if (this.lastDeltaY < Math.abs(ev.deltaY)) {
+        if (Math.abs(this.lastDeltaY) < Math.abs(ev.deltaY)) {
             this.vy += ev.deltaY > 0 ? this.a : -this.a
             this.vy = math.clamp(this.vy, -maxV, maxV)
         }
         this.mouse = this.wheelFunc.globe.elementCoord(ev)
         this.lastDeltaY = Math.abs(ev.deltaY)
-        this.lastTime = now
+        this.lastA = now
         if (!this.animation) {
             this.animation = new MotionAnimation(this.wheelFunc.globe, {
                 callback: ({ dt }) => {
-                    if (time.now() - this.lastTime > MIN_INTERVAL)
+                    if (time.now() - this.lastA > MIN_INTERVAL)
                         this.vy *= this.k ** (dt / 10.)
                     this.wheelFunc.wheel({
                         x: 0,

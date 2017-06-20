@@ -1,6 +1,7 @@
 import { event, CameraParams, CameraMode } from "stellar-globe"
 import { FrameBind, FrameComponent, PropBinder } from "."
 import { serializable } from '../../utils/serialize'
+import _ from "lodash"
 
 
 @serializable({ exclude: ['fb'] })
@@ -36,7 +37,7 @@ export class CameraState implements PropBinder {
             vm.$emit('move', e)
         }
 
-        globe.on(event.MoveEvent, (e) => vm.emitMoveEventContinuously && onMove(e))
+        globe.on(event.MoveEvent, _.throttle((e: event.MoveEvent) => vm.emitMoveEventContinuously && onMove(e), 500))
         globe.on(event.MoveEndEvent, onMove)
 
         vm.$watch(() => this.p, () => {

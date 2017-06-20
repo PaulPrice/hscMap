@@ -7,7 +7,7 @@
 <style lang="sass" scoped>
 .flat-button
     display: inline-block
-    margin: 0 0.1em
+    margin: 0.1em
     border-radius: 4pt
     background-color: rgba(191, 191, 191, 0.25)
     padding: 0.2em 1em

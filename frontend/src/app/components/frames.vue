@@ -7,6 +7,7 @@
             :retina="$root.s.viewState.retina",
             :dissolveEffect="$root.s.viewState.dissolveEffect",
             :motionLod="$root.s.viewState.motionLod",
+            :emitMoveEventContinuously="false",
             @move="e => $root.s.viewState.frameOnMove(e)",
         )
     div(v-else)

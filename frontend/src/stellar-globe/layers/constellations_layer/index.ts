@@ -87,8 +87,14 @@ export class ConstellationNamesLayer extends SpriteLayer {
 
 export class ConstellationJapaneseNamesLayer extends ConstellationNamesLayer {
     protected translate(name: string) {
+        return japaneseHiragana[name]
+    }
+}
+
+
+export class ConstellationKanjiJapaneseNamesLayer extends ConstellationNamesLayer {
+    protected translate(name: string) {
         return japaneseKanji[name]
-        // return japaneseHiragana[name]
     }
 }
 

@@ -21,8 +21,9 @@ export class SimpleRgbMixer extends BaseMixer {
     logA = defaultParams.logA
 
     tileImageUrls(tile: Tile) {
+        const [depth, tractNum] = tile.tract.id.split('-')
         return this.filters.map(f => {
-            return `/data/ssp_tiles/${tile.tract.id}/${f}/${tile.level}/${tile.j}/${tile.i}.png`
+            return `/data/ssp_tiles/${depth}/${f}/${tractNum}/${tile.level}/${tile.j}/${tile.i}.png`
         })
     }
 

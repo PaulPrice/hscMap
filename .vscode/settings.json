@@ -8,6 +8,7 @@
         "**/.DS_Store": true,
         "frontend/node_modules": true,
         "**/*.pyc": true,
-        "**/*.o": true
+        "**/*.o": true,
+        "frontend/dist": true
     }
 }

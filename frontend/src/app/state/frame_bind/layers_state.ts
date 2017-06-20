@@ -10,6 +10,7 @@ export class LayersState implements PropBinder, Record<LayerName, boolean> {
     ConstellationsLayer: boolean
     ConstellationNamesLayer: boolean
     ConstellationJapaneseNamesLayer: boolean
+    ConstellationKanjiJapaneseNamesLayer: boolean
     EsoMilkyWayLayer: boolean
     HipparcosCatalogLayer: boolean
     SspFieldNameLayer: boolean
@@ -27,6 +28,7 @@ export class LayersState implements PropBinder, Record<LayerName, boolean> {
         this.ConstellationsLayer = true
         this.ConstellationNamesLayer = false
         this.ConstellationJapaneseNamesLayer = false
+        this.ConstellationKanjiJapaneseNamesLayer = false
         this.EsoMilkyWayLayer = primary
         this.HipparcosCatalogLayer = primary
         this.SspFieldNameLayer = primary
@@ -61,6 +63,7 @@ import {
     ConstellationsLayer,
     ConstellationNamesLayer,
     ConstellationJapaneseNamesLayer,
+    ConstellationKanjiJapaneseNamesLayer,
     HipparcosCatalogLayer,
     EsoMilkyWayLayer,
     // JamiesonCelestialAtlasLayer,
@@ -80,6 +83,7 @@ export const layerClass = {
     ConstellationsLayer,
     ConstellationNamesLayer,
     ConstellationJapaneseNamesLayer,
+    ConstellationKanjiJapaneseNamesLayer,
     SspSurveyAreaLayer,
     SspFieldNameLayer,
     SspImageLayer,

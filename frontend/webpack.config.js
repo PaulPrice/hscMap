@@ -1,5 +1,6 @@
 const webpack = require('webpack')
 const webpackMerge = require('webpack-merge')
+const CompressionPlugin = require("compression-webpack-plugin")
 const productDir = `${__dirname}/dist`
 const buildTarget = process.env.HSCMAP_BUILD_TARGET || 'development'
 if (['development', 'production'].indexOf(buildTarget) < 0)
@@ -46,15 +47,11 @@ const moduleConfig = (() => {
 
 
 const polyfillConfig = {
-    entry: [
-        'babel-polyfill',
-        'whatwg-fetch',
-        'setimmediate'
-    ]
+    entry: ['polyfill/web']
 }
 
 
-const dataServer = process.env.HSCMAP_DATA_SERVER || 'internal_release'
+const dataServer = process.env.HSCMAP_DATA_SERVER || 'public'
 const proxySetting = require('./proxy.config')[dataServer]
 
 
@@ -88,7 +85,14 @@ const devConfig = buildTarget == 'development' ? {
 
 
 const optimizationConfig = buildTarget == 'production' ? {
-    plugins: [new webpack.optimize.UglifyJsPlugin({ mangle: false })]
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin({ mangle: false }),
+        new CompressionPlugin({
+            asset: "[path].gz[query]",
+            algorithm: "gzip",
+            test: /\.(js|json)$/,
+        })
+    ]
 } : {}
 
 

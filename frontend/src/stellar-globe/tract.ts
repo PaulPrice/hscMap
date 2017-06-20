@@ -7,7 +7,7 @@ export class Tract {
     wcs: Wcs
     naxis1: number
     naxis2: number
-    maxLevel: number = 9
+    maxLevel: number = 8
     tileSize = 256
     mMatrix: mat4 // model matrix
     invMMatrix: mat4 // inverted model matrix

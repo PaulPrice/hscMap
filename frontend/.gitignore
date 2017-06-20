@@ -1,1 +1,3 @@
 /node_modules
+/dist
+/proxy-override.config.js

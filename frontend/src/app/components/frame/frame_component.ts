@@ -3,17 +3,13 @@ import { Component, Prop, Watch } from 'vue-property-decorator'
 import { FrameBind } from "../../state/frame_bind"
 import { Globe, GridTic, Layer, TextureTileLayer } from "stellar-globe"
 import { CatalogObserver } from "./catalog_observer"
+import { angle2sexadcimal } from "../../utils/format";
+import { sprintf } from "sprintf-js"
 
 
 const components = {
     myCatalogObserver: CatalogObserver
 }
-
-
-// import rawMassmap from './co.json'
-// const massmap = rawMassmap as MassmapData
-// import rawMassmap2 from './small-contour.json'
-// const massmap2 = rawMassmap2 as MassmapData
 
 
 @Component({ components })
@@ -32,8 +28,6 @@ export class FrameComponent extends Vue {
         this.globe = new Globe(this.$refs.globe as HTMLElement)
         // TODO: remove following lines
         // new RingsTractLayer(this.globe)
-        // new MassmapLayer(this.globe, massmap)
-        // new MassmapLayer(this.globe, massmap2)
         this.value.onMount(this)
         runWatchers(this)
     }
@@ -77,6 +71,23 @@ export class FrameComponent extends Vue {
     }
 
     gridTic: GridTic | null = true as any
+
+    get position() {
+        const { a, d } = this.value.camera.p
+        let ra = math.rad2deg(a)
+        if (ra < 0)
+            ra = 360 - (-ra % 360)
+        ra %= 360
+        return this.positionFormat == 'sexadecimal' ?
+            `&alpha;=${angle2sexadcimal(math.rad2deg(a), 15)} &delta;=${angle2sexadcimal(math.rad2deg(d), 1)}` :
+            sprintf('&alpha;=%.4f &delta;=%+08.4f', ra, math.rad2deg(d))
+    }
+
+    @Prop({ default: 'sexadecimal' })
+    positionFormat = 'sexadecimal'
+    toggleFormat() {
+        this.positionFormat = this.positionFormat != 'sexadecimal' ? 'sexadecimal' : 'decimal'
+    }
 }
 
 
@@ -101,51 +112,6 @@ window.addEventListener('load', () => {
         }
     })
 })
-
-interface MassmapPath {
-    level: number, vertices: Vector2[]
-}
-type MassmapData = MassmapPath[]
-
-
-class MassmapLayer extends LineSegmentLayer {
-    constructor(globe: Globe, data: MassmapData) {
-        super(globe)
-        this.build(data)
-    }
-
-    alpha() {
-        return 1
-    }
-
-    draw() {
-        if (show)
-            super.draw()
-    }
-
-    minWidth(): number {
-        return this.globe.retina ? 6 : 5
-    }
-
-    darkenNarrowLine = false
-
-    build(data: MassmapData) {
-        this.stroke(pen => {
-            pen.width = 0
-            for (const p of data) {
-                if (p.level >= 0) {
-                    const { r, g, b } = tinycolor({ h: 240 - p.level * 20, s: 100, v: 100 }).toRgb()
-                    pen.color = [r / 255, g / 255, b / 255, 0.5 * (0.5 + Math.min(0.5, p.level / 10))]
-                    for (const [a, d] of p.vertices) {
-                        const p = math.radec2xyz(math.deg2rad(a), math.deg2rad(d))
-                        pen.lineTo(p)
-                    }
-                }
-                pen.up()
-            }
-        })
-    }
-}
 
 
 // https://github.com/lsst/skymap/blob/master/python/lsst/skymap/ringsSkyMap.py

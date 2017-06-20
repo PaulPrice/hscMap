@@ -1,6 +1,6 @@
 1. Build prerequisites for tileMaker
     * [GCC >= 5.1](https://gcc.gnu.org)
-        ```bash:install-gcc.bash
+        ```sh:install-gcc.sh
         mkdir -p $HOME/tmp
         cd $HOME/tmp
         wget http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-7.1.0/gcc-7.1.0.tar.gz
@@ -12,7 +12,7 @@
         make install
         ```
     * [SFITSIO >= 1.4.5](http://www.ir.isas.jaxa.jp/~cyamauch/sli/index.html)
-        ```bash:instal.bash
+        ```sh:instal.sh
         mkdir -p $HOME/tmp
         cd $HOME/tmp
         wget http://www.ir.isas.jaxa.jp/~cyamauch/sli/sllib-1.4.5.tar.gz
@@ -36,7 +36,7 @@
         pip install pyfits
         ```
 1. Build tileMaker
-    ```bash:install-tileMaker.bash
+    ```sh:install-tileMaker.sh
     git clone https://github.com/michitaro/hscMap
     cd backend/tileMaker
     make -B GCC_DIR=$HOME/hscMap SFITSIO_DIR=$HOME/hscMap
@@ -44,6 +44,6 @@
 1. Make tiles
     ```
     cd backend/tileMaker
-    python tileMaker.py --outDir test --inDir /path/to/pipeline/output --filters HSC-I HSC-G --tracts 10054 10053
-    # /path/to/pipeline/output includes directory "deepCoadd"
+    python tileMaker.py --outDir test --inDir /path/to/pipeline/output --filters CLAUDS-U --tracts 10054 10053
+    # /path/to/pipeline/output is a directory that includes directory "deepCoadd"
     ```

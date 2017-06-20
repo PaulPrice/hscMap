@@ -14,7 +14,7 @@ export class HipparcosCatalogLayer extends CatalogLayer {
             this.globe.requestRedraw()
             this.fadeIn()
         })
-        loadWorker.postMessage(undefined)
+        loadWorker.postMessage(null)
     }
 
     fadeIn() {
@@ -30,10 +30,10 @@ export class HipparcosCatalogLayer extends CatalogLayer {
     }
 
     static attributions = [
-        // {
-        //     which: 'Star dots',
-        //     label: 'Hipparcos Main Catalog',
-        //     link: 'https://heasarc.gsfc.nasa.gov/W3Browse/all/hipparcos.html',
-        // }
+        {
+            which: '',
+            label: 'Hipparcos Main Catalog',
+            link: 'https://heasarc.gsfc.nasa.gov/W3Browse/all/hipparcos.html',
+        }
     ]
 }
