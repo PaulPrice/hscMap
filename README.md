@@ -19,7 +19,7 @@
     ```
 
 1. Open local dev-server
-    Open [http://localhost:8080]()
+    * Open [http://localhost:8080]()
 
 
 ## Credits
