@@ -14,7 +14,7 @@
 
 1. Build
     ```sh:build.sh
-    cd frontend
+    cd hscMap/frontend
     npm install
     npm run dev-server
     ```
