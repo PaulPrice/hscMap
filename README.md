@@ -1,7 +1,6 @@
 # hscMap3
 
-[http://hscmap.mtk.nao.ac.jp/bleeding-edge/]() <= working demo
-
+[Working DEMO](http://hscmap.mtk.nao.ac.jp/bleeding-edge/)
 
 ## Install
 1. Install prerequisites
