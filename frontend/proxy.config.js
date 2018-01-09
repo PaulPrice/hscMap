@@ -16,9 +16,17 @@ const override = (() => {
 })()
 
 
+const hips = {
+    context: '/aladin',
+    target: 'http://alasky.u-strasbg.fr',
+    pathRewrite: { '^/aladin': '' }
+}
+
+
 module.exports = {
     public: [
         ...override,
+        hips,
         {
             context: '/data',
             target: 'http://hscmap.mtk.nao.ac.jp',

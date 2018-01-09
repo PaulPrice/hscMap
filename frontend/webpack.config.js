@@ -7,18 +7,6 @@ if (['development', 'production'].indexOf(buildTarget) < 0)
     throw 'HSCMAP_BUILD_TARGET must be one of development and production.'
 
 
-const ioConfig = {
-    entry: [
-        'file-loader?name=index.html!./src/app/index.html',
-        './src/app/main.ts',
-    ],
-    output: {
-        path: productDir,
-        filename: 'bundle.js',
-    },
-}
-
-
 const moduleConfig = (() => {
     const tsLoader = [
         { loader: 'babel-loader' },
@@ -86,7 +74,7 @@ const devConfig = buildTarget == 'development' ? {
 
 const optimizationConfig = buildTarget == 'production' ? {
     plugins: [
-        new webpack.optimize.UglifyJsPlugin({ mangle: false }),
+        // new webpack.optimize.UglifyJsPlugin({ mangle: false }),
         new CompressionPlugin({
             asset: "[path].gz[query]",
             algorithm: "gzip",
@@ -96,4 +84,40 @@ const optimizationConfig = buildTarget == 'production' ? {
 } : {}
 
 
-module.exports = webpackMerge(polyfillConfig, ioConfig, moduleConfig, defineConfig, devConfig, optimizationConfig)
+const standalone = {
+    entry: [
+        'file-loader?name=index.html!./src/app/index.html',
+        './src/app/main.ts',
+    ],
+    output: {
+        path: productDir,
+        filename: 'bundle.js',
+    },
+}
+
+const jupyter = {
+    entry: [
+        'file-loader?name=jupyter.html!./src/jupyter/index.html',
+        './src/jupyter/index.ts',
+    ],
+    output: {
+        path: productDir,
+        filename: 'jupyter.js',
+    },
+}
+
+
+const jupyterClient = {
+    entry: ['./src/jupyter/client.ts'],
+    output: {
+        path: productDir,
+        filename: 'jupyter-client.js',
+    }
+}
+
+
+module.exports = [
+    webpackMerge(polyfillConfig, standalone, moduleConfig, defineConfig, devConfig, optimizationConfig),
+    webpackMerge(polyfillConfig, jupyter, moduleConfig, defineConfig, devConfig, optimizationConfig),
+    webpackMerge(polyfillConfig, jupyterClient, moduleConfig, defineConfig, devConfig, optimizationConfig),
+]

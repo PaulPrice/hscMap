@@ -8,7 +8,7 @@ export class ZoomWheelFunc extends WheelFunc {
         super(globe)
     }
 
-    k = 3.e-3
+    k = 5.e-3
 
     wheel(wheel: Vector2, mouse: Vector2) {
         let cParams = this.globe.cameraParams

@@ -2,6 +2,7 @@ import { Globe } from './globe'
 import * as math from './math'
 import { CameraMode } from './camera'
 import { Tic as GridTic } from './layers/dynamic_grid_layer'
+import { Layer } from './layer'
 
 
 export type Handler<T> = (event: T) => void
@@ -43,6 +44,11 @@ export class TicChangeEvent extends Event {
     constructor(public tic: GridTic | null) { super() }
 }
 
+
+export class LoadDoneEvent extends Event {
+    constructor(public layer: Layer) { super() }
+}
+
 export type Class<T extends Event> = {
-    new (...args: any[]): T
+    new(...args: any[]): T
 }

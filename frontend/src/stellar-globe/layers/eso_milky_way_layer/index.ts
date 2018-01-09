@@ -78,8 +78,8 @@ export class EsoMilkyWayLayer extends CubeMappingLayer {
     /**/
 }
 
-const urls1024 = ['px', 'py', 'pz', 'nx', 'ny', 'nz'].map(dir => `/data/eso_milky_way_layer/images-1024/${dir}.png`)
-const urls512 = ['px', 'py', 'pz', 'nx', 'ny', 'nz'].map(dir => `/data/eso_milky_way_layer/images-512/${dir}.png`)
+const urls1024 = ['px', 'py', 'pz', 'nx', 'ny', 'nz'].map(dir => `data/eso_milky_way_layer/images-1024/${dir}.png`)
+const urls512 = ['px', 'py', 'pz', 'nx', 'ny', 'nz'].map(dir => `data/eso_milky_way_layer/images-512/${dir}.png`)
 /*
 import px1024 from 'file-loader!./images-1024/px.png'
 import py1024 from 'file-loader!./images-1024/py.png'

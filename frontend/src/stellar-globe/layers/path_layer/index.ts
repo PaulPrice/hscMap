@@ -143,6 +143,7 @@ export class Pen {
             if (close) {
                 this.path.unshift(this.path[this.path.length - 1])
                 this.path.push(this.path[1], this.path[2])
+                // this.path.push(this.path[1])
             }
             else {
                 this.capEnds()
@@ -169,13 +170,13 @@ export class Pen {
     private capEnds() {
         this.path.unshift({
             ...this.path[0],
-            pos: this.path[0].pos.map((p, i) => 2 * p - this.path[1].pos[i]),
+            pos: this.path[0].pos.map((p, i) => 2 * p - this.path[1].pos[i]) as Vector3,
         })
 
         const last = this.path.length - 1
         this.path.push({
             ...this.path[last],
-            pos: this.path[last].pos.map((p, i) => 2 * p - this.path[last - 1].pos[i]),
+            pos: this.path[last].pos.map((p, i) => 2 * p - this.path[last - 1].pos[i]) as Vector3,
         })
     }
 

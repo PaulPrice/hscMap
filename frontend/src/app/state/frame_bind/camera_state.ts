@@ -7,7 +7,7 @@ import _ from "lodash"
 @serializable({ exclude: ['fb'] })
 export class CameraState implements PropBinder {
     p: CameraParams = {
-        mode: CameraMode.FLOATING_EYE,
+        mode: CameraMode.STEREOGRAPHIC,
         a: 0,
         d: 0,
         fovy: 1,
@@ -37,7 +37,7 @@ export class CameraState implements PropBinder {
             vm.$emit('move', e)
         }
 
-        globe.on(event.MoveEvent, _.throttle((e: event.MoveEvent) => vm.emitMoveEventContinuously && onMove(e), 500))
+        globe.on(event.MoveEvent, (e: event.MoveEvent) => vm.emitMoveEventContinuously && onMove(e))
         globe.on(event.MoveEndEvent, onMove)
 
         vm.$watch(() => this.p, () => {

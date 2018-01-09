@@ -19,7 +19,7 @@ export class LayersState implements PropBinder, Record<LayerName, boolean> {
     JamiesonCelestialAtlasLayer: boolean
     M31Layer: boolean
     ViewFrustumLayer: boolean
-    HipsLayer: boolean
+    // HipsLayer: boolean
 
 
     constructor(primary: boolean) {
@@ -29,7 +29,7 @@ export class LayersState implements PropBinder, Record<LayerName, boolean> {
         this.ConstellationNamesLayer = false
         this.ConstellationJapaneseNamesLayer = false
         this.ConstellationKanjiJapaneseNamesLayer = false
-        this.EsoMilkyWayLayer = primary
+        this.EsoMilkyWayLayer = true
         this.HipparcosCatalogLayer = primary
         this.SspFieldNameLayer = primary
         this.SspImageLayer = true
@@ -37,7 +37,7 @@ export class LayersState implements PropBinder, Record<LayerName, boolean> {
         this.JamiesonCelestialAtlasLayer = false
         this.M31Layer = true
         this.ViewFrustumLayer = false
-        this.HipsLayer = false
+        // this.HipsLayer = false
     }
 
     onMount(vm: FrameComponent, b: FrameBind) {
@@ -58,7 +58,7 @@ export class LayersState implements PropBinder, Record<LayerName, boolean> {
 
 import {
     GridLayer,
-    HipsLayer,
+    // HipsLayer,
     DynamicGridLayer,
     ConstellationsLayer,
     ConstellationNamesLayer,
@@ -92,7 +92,7 @@ export const layerClass = {
     // JamiesonCelestialAtlasLayer,
     M31Layer,
     ViewFrustumLayer,
-    HipsLayer,
+    // HipsLayer,
 }
 
 export type LayerName = keyof typeof layerClass

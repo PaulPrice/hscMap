@@ -3,6 +3,9 @@ import { State } from "."
 import { serializable } from '../utils/serialize'
 
 
+const citizenScience = !!location.search.match(/citizenScience/)
+
+
 @serializable({ inject: ['rootState'] })
 export class PanelManager {
     about = panelBind(false)
@@ -10,6 +13,7 @@ export class PanelManager {
     catalogManager = panelBind(false)
     devel = panelBind(false)
     preferences = panelBind(false)
+    citizenScience = panelBind(citizenScience)
 
     constructor(public rootState: State) { }
 

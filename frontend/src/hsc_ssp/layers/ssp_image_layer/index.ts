@@ -4,15 +4,18 @@ import Mixer from './mixers/base_mixer'
 import { SimpleRgbMixer } from './mixers/simple_rgb_mixer'
 import { SdssTrueColorMixer } from './mixers/sdss_true_color_mixer'
 import tractsLoader from './../ssp_tracts'
+import { glUtils } from 'stellar-globe'
 
 
-type DepthName = 'udeep' | 'deep' | 'wide'
+type DepthName = 'udeep' | 'deep' | 'wide' | 'dud' | 'uh_ssp'
 
 
 export class SspImageLayer extends TextureTileLayer {
     udeep = true
     deep = true
     wide = true
+    dud = true
+    uh_ssp = true
 
     private readonly imageFilter = this.track(new ImageFilter(this.gl))
     mixers = {
@@ -30,6 +33,8 @@ export class SspImageLayer extends TextureTileLayer {
         udeep: [] as Tract[],
         deep: [] as Tract[],
         wide: [] as Tract[],
+        dud: [] as Tract[],
+        uh_ssp: [] as Tract[],
     }
 
     walkTracts(cb: (tract: Tract) => void) {
@@ -41,6 +46,12 @@ export class SspImageLayer extends TextureTileLayer {
                 cb(t)
         if (this.wide)
             for (const t of this.tracts.wide)
+                cb(t)
+        if (this.dud)
+            for (const t of this.tracts.dud)
+                cb(t)
+        if (this.uh_ssp)
+            for (const t of this.tracts.uh_ssp)
                 cb(t)
     }
 
@@ -70,13 +81,13 @@ export class SspImageLayer extends TextureTileLayer {
         if (this.checkBoard)
             if ((tile.i + tile.j) % 2 == 1)
                 tile.flash = 0.5
-        // if (tile.level == tile.tract.maxLevel) {
-        //     glUtils.bind([tile.texture], () => {
-        //         const gl = this.gl
-        //         gl.generateMipmap(gl.TEXTURE_2D)
-        //         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_LINEAR)
-        //     })
-        // }
+        if (tile.level == tile.tract.maxLevel) {
+            glUtils.bind([tile.texture], () => {
+                const gl = this.gl
+                gl.generateMipmap(gl.TEXTURE_2D)
+                gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_LINEAR)
+            })
+        }
         // if (tile.level == 0) {
         //     glUtils.bind([tile.texture], () => {
         //         const gl = this.gl
@@ -117,9 +128,11 @@ class Tile extends TextureTileBase {
     afterInitialize() {
         // tract.id := wide-9317
         const depth: number = ({
+            uh_ssp: -1,
             udeep: 0,
-            deep: 1,
-            wide: 2,
+            dud: 1,
+            deep: 2,
+            wide: 3,
         } as any)[this.tract.id.split('-')[0]]
         this.priority = `${depth}/${this.tract.id}`
     }

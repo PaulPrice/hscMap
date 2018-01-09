@@ -21,8 +21,9 @@ export { TextureLoader } from "./texture_loader"
 import * as glUtils from './webgl/utils'; export { glUtils }
 import * as event from './event'; export { event }
 
+export { TileLayer } from "./layers/tile_layer"
 export { TextureTileLayer, TextureTileBase } from "./layers/texture_tile_layer"
-export { HipsLayer } from "./layers/hips_layer"
+// export { HipsLayer } from "./layers/hips_layer"
 export { LineSegmentLayer } from './layers/line_segment_layer'
 export { PathLayer } from './layers/path_layer'
 export { GridLayer } from './layers/grid_layer'

@@ -2,6 +2,7 @@ import { Globe } from './globe'
 import { ResourceHolder } from './resource_holder'
 
 enum Pane {
+    BACKGROUND,
     BASE,
     OVERLAY,
     SPRITE,

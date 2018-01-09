@@ -11,6 +11,7 @@ import { vec3 } from 'gl-matrix'
 import * as status from './devel/status'
 
 
+
 export class Globe extends ResourceHolder {
     gl: WebGLRenderingContext
     cameraParams: CameraParams = {
@@ -22,11 +23,12 @@ export class Globe extends ResourceHolder {
         tilt: 0,
     }
     camera: Camera
-    private canvas: HTMLCanvasElement
+    readonly canvas: HTMLCanvasElement
 
-    constructor(public element: HTMLElement) {
+    constructor(public element: HTMLElement, private offscreen = false) {
         super()
-        this.setupElement()
+        this.canvas = this.setupElement(offscreen)
+        this.onResize()
         this.setupMouse()
         this.setupWheel()
         this.requestRedraw()
@@ -113,7 +115,7 @@ export class Globe extends ResourceHolder {
         })
     }
 
-    private refreshCamera() {
+    refreshCamera() {
         const aspectRatio = this.element.clientWidth / this.element.clientHeight
         if (this.cameraModeAnimation) {
             const a = this.cameraModeAnimation
@@ -211,28 +213,34 @@ export class Globe extends ResourceHolder {
         })
     }
 
-    private setupElement() {
-        this.canvas = canvasPool.get()
-        const canvas = this.canvas
+    private setupElement(offscreen: boolean) {
+        const canvas = canvasPool.get()
         this.element.appendChild(canvas)
         canvas.style.cursor = 'default'
-        if (BUILD_SETTINGS.DEBUG)
-            canvas.style.backgroundColor = '#0f0'
+        canvas.style.backgroundColor = '#000'
+        if (BUILD_SETTINGS.DEBUG) {
+            canvas.style.backgroundColor = '#003'
+        }
         canvas.style.width = '100%'
         canvas.style.height = '100%'
         const glOptions = {
             antialias: false,
             stencil: true,
             alpha: false,
+            preserveDrawingBuffer: offscreen,
         }
         this.gl = (canvas.getContext('webgl', glOptions) || canvas.getContext('experimental-webgl', glOptions)) as WebGLRenderingContext
+        if (this.gl == null) {
+            alert('This browser seem not to support WebGL.')
+            throw new Error('webgl not supported')
+        }
         window.addEventListener('resize', this.onResize)
         this.onRelease(() => {
             window.removeEventListener('resize', this.onResize)
             this.element.removeChild(canvas)
             canvasPool.retrunBack(canvas)
         })
-        this.onResize()
+        return canvas
     }
 
     setRetina(value: boolean) {
@@ -247,6 +255,18 @@ export class Globe extends ResourceHolder {
         const canvas = this.canvas
         canvas.width = canvas.clientWidth * ratio
         canvas.height = canvas.clientHeight * ratio
+        this.resetViewport()
+    }
+
+    resize(width: number, height: number) {
+        const canvas = this.canvas
+        canvas.width = width
+        canvas.height = height
+        this.resetViewport()
+    }
+
+    private resetViewport() {
+        const canvas = this.canvas
         this.gl.viewport(0, 0, canvas.width, canvas.height)
         this.trigger(new event.ResizeEvent())
         this.requestRedraw()
@@ -371,6 +391,19 @@ export class Globe extends ResourceHolder {
         const name = e.constructor.name
         for (const h of this.eventHandlers[name] || [])
             h(e)
+    }
+
+    pixelArray() {
+        const gl = this.gl
+        const w = gl.drawingBufferWidth
+        const h = gl.drawingBufferHeight
+        const array = new Uint8Array(w * h * 4)
+        gl.readPixels(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight, gl.RGBA, gl.UNSIGNED_BYTE, array)
+        return {
+            width: w,
+            height: h,
+            buffer: array.buffer,
+        }
     }
 }
 

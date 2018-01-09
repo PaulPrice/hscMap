@@ -4,7 +4,9 @@
   "scripts": {
     "build": "rm -rf dist ; cross-env HSCMAP_BUILD_TARGET=production webpack --progress",
     "dev-server": "./node_modules/.bin/webpack-dev-server --progress --hot",
-    "deploy": "npm run build ; rsync -av --delete ./dist/ hscmap:htdocs/bleeding-edge"
+    "deploy": "npm run build ; rsync -av --delete ./dist/ hscmap.mtk.nao.ac.jp:htdocs/bleeding-edge ; ssh hscmap.mtk.nao.ac.jp 'cd htdocs/bleeding-edge ; ln -s ../data'",
+    "niu": "npm run build ; rsync -av --delete ./dist/ niu:das3/s17a/www/app",
+    "dr2": "npm run build ; rsync -av ./dist/ har-web02:/usr/local/httpd/htdocs/hsc_ssp/dr2/s17a/hscMap3"
   },
   "devDependencies": {
     "@types/gl-matrix": "^2.2.34",
@@ -49,12 +51,18 @@
     "vue": "^2.3.3",
     "vue-class-component": "^5.0.1",
     "vue-loader": "^12.2.1",
-    "vue-property-decorator": "^5.0.1",
     "vue-template-compiler": "^2.3.3",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0",
     "whatwg-fetch": "^2.0.3",
     "worker-loader": "^0.8.0"
+  },
+  "dependencies": {
+    "@types/jqueryui": "^1.11.35",
+    "base-64": "^0.1.0",
+    "flot": "^0.8.0-alpha",
+    "scroll-into-view-if-needed": "^1.4.0",
+    "vue-property-decorator": "^5.3.0"
   }
 }

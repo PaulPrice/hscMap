@@ -13,14 +13,14 @@ export class TextureLoader extends ResourceHolder {
     textures: Texture[] = []
     nonBlocking = false
 
-    load(imageUrls: string[], cb: (textures: Texture[]) => void) {
+    load(imageUrls: string[], cb: (textures: Texture[]) => void, modifier = (img: HTMLImageElement) => { }) {
         return this.nonBlocking ? new Promise((resolve) => {
             const gl = this.gl
             const textures: Texture[] = new Array(imageUrls.length)
             let done = 0
             for (let i = 0; i < imageUrls.length; ++i) {
                 const url = imageUrls[i]
-                image.load(url, { fallbackBlack: true }).then(img => {
+                image.load(url, { fallbackBlack: true, modifier }).then(img => {
                     smallTasks.push(() => {
                         textures[i] = new Texture(gl)
                         textures[i].setImage(img)

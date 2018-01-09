@@ -1,6 +1,7 @@
 import { Globe } from '../globe'
 import { Layer } from '../layer'
 import { Tract } from '../tract'
+import * as event from '../event'
 import { SizeLimitedDict } from '../size_limited_dict'
 import * as math from '../math'
 import { PathLayer } from '../layers/path_layer'
@@ -69,6 +70,8 @@ export abstract class TileLayer extends Layer {
         return 1
     }
 
+    searchAltTiles = true
+
     private updateActiveTiles(activeTiles: TileDict, tilesToLoad: ReqeustDict, scaleBias: number) {
         this.walkTracts(tract =>
             tract.tileIndices(
@@ -78,7 +81,7 @@ export abstract class TileLayer extends Layer {
                 scaleBias,
                 (level, i, j, lodAlpha, maxLevel) => {
                     this.pickActiveTilesFor(activeTiles, tract, level, i, j, lodAlpha)
-                    this.refreshLoadQueue(tilesToLoad, tract, level, maxLevel, i, j)
+                    this.refreshLoadQueue(tilesToLoad, tract, level, this.searchAltTiles ? maxLevel : level, i, j)
                 }
             )
         )
@@ -164,6 +167,7 @@ export abstract class TileLayer extends Layer {
                 this.readyTiles.set(tile.id, tile)
                 this.addToDescendantIndex(tile)
                 this.globe.requestRedraw()
+                this.globe.trigger(new event.LoadDoneEvent(this))
             })
         }
     }
@@ -274,6 +278,20 @@ export abstract class TileLayer extends Layer {
     }
 
     pane() { return Layer.Pane.BASE }
+
+    done() {
+        this.globe.refreshCamera()
+
+        const activeTiles: TileDict = {}
+        const tilesToLoad: ReqeustDict = {}
+        const scaleBias = this.scaleBias()
+
+        this.updateActiveTiles(activeTiles, tilesToLoad, scaleBias)
+        this.resreshOldTiles(tilesToLoad, activeTiles)
+        this.loadTiles(tilesToLoad)
+
+        return Object.keys(this.loadingTiles).length == 0 && Object.keys(tilesToLoad).length == 0
+    }
 }
 
 

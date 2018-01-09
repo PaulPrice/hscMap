@@ -13,7 +13,7 @@ export class SspSurveyAreaLayer extends PathLayer {
     stencilTest = true
 
     private async startLoading() {
-        const surveyRegion = await (await fetch('/data/ssp/survey_area.json')).json() as Vector3[][]
+        const surveyRegion = await (await fetch('data/ssp/survey_area.json', { credentials: 'include' })).json() as Vector3[][]
 
         this.stroke(pen => {
             pen.width = 0.005

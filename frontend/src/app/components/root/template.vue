@@ -9,6 +9,7 @@
     myAttributions
     myDevel
     myPreferencesPanel
+    myCitizenSciencePanel
 </template>
 
 
@@ -23,6 +24,7 @@ import myAttributions from '../attributions'
 import myCatalogTablePanels from '../catalog_table_panels'
 import myDevel from '../../devel'
 import myPreferencesPanel from '../preferences'
+import myCitizenSciencePanel from '../citizen_science'
 
 
 export default {
@@ -36,6 +38,7 @@ export default {
         myCatalogTablePanels,
         myDevel,
         myPreferencesPanel,
+        myCitizenSciencePanel,
     },
 }
 </script>

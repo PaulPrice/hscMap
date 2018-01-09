@@ -28,6 +28,8 @@ xPanel(
 <script>
 import myFrame from './frame'
 
+let id = 0
+
 export default {
     props: {
         panel: { required: true },
@@ -37,6 +39,11 @@ export default {
         motionLod: { require: true },
         emitMoveEventContinuously: { type: Boolean, default: false },
         dissolveEffect: { type: Boolean, default: true },
+    },
+    data() {
+        return {
+            id: ++id
+        }
     },
     mounted() {
         this.$watch('focused', focused => {

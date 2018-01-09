@@ -2,7 +2,7 @@
 .full
     .full(v-if="$root.s.frameManager.mode == 'single'")
         myFrame(
-            :key="currentFrame",
+            :key="currentFrame.id",
             v-model="currentFrame",
             :retina="$root.s.viewState.retina",
             :dissolveEffect="$root.s.viewState.dissolveEffect",
@@ -12,7 +12,7 @@
         )
     div(v-else)
         myFramePanel(
-            v-for="fp in $root.s.frameManager.framePanels", :key="fp",
+            v-for="fp in $root.s.frameManager.framePanels", :key="fp.id",
             :frame="fp.frame", :panel="fp.panel",
             :retina="$root.s.viewState.retina",
             :dissolveEffect="$root.s.viewState.dissolveEffect",

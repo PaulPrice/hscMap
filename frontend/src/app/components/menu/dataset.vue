@@ -2,9 +2,11 @@
 xMenuBarItem(label="Dataset")
     -
         const dataset = [
+            { label: 'UH & SSP', depth: 'uh_ssp' },
             { label: 'Ultra Deep', depth: 'udeep' },
             { label: 'Deep', depth: 'deep' },
             { label: 'Wide', depth: 'wide' },
+            { label: 'Deep & Ultra Deep', depth: 'dud' },
         ]
     each d in dataset
         xMenuItem(

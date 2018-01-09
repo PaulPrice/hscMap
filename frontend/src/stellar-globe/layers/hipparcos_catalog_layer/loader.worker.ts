@@ -18,7 +18,7 @@ interface Zone {
 addEventListener('message', (event: MessageEvent) => {
     (async () => {
         try {
-            const { nZones, zones } = await (await fetch(packedCatalogUrl)).json() as PackedCatalog
+            const { nZones, zones } = await (await fetch(packedCatalogUrl, { credentials: 'include' })).json() as PackedCatalog
             let attrs: number[] = []
             for (const zone of zones) {
                 const { nRaDiv, nDecDiv, minDec, maxDec, payload } = zone

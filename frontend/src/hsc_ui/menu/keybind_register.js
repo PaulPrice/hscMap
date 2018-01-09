@@ -5,7 +5,8 @@ KeybindRegsiter = class KeybindRegsiter {
   constructor() {
     this.handler = {};
     this.keydown = (e) => {
-      return this._execRegisteredHandler(e);
+      if (['input', 'textarea'].indexOf(e.target.tagName.toLowerCase()) == -1)
+        this._execRegisteredHandler(e);
     };
     document.addEventListener('keydown', this.keydown);
   }
@@ -91,7 +92,7 @@ KeybindRegsiter = class KeybindRegsiter {
 
 singleton = void 0;
 
-getSingleton = function() {
+getSingleton = function () {
   return singleton != null ? singleton : singleton = new KeybindRegsiter();
 };
 

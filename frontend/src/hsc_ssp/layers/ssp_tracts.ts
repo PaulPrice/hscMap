@@ -8,5 +8,5 @@ interface TractDict {
 }
 
 export default async function () {
-    return await (await fetch('/data/ssp_tiles/tracts.json')).json()
+    return await (await fetch('data/ssp_tiles/tracts.json', { credentials: 'include' })).json()
 }

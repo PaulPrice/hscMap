@@ -7,7 +7,7 @@ xMenuBarItem(label="Frame")
     xMenuItem(label="Window", :checked="$root.s.frameManager.mode == 'panel'", @click="$root.s.frameManager.mode = 'panel'")
     xDivider
     xMenuItem(
-        v-for="fp in $root.s.frameManager.framePanels", :key="fp",
+        v-for="fp in $root.s.frameManager.framePanels", :key="fp.id",
         :label="fp.frame.name",
         :checked="$root.s.frameManager.currentFrame == fp.frame",
         @click="$root.s.frameManager.currentFrame = fp.frame",

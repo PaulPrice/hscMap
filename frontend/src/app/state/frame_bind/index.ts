@@ -14,7 +14,8 @@ export { FrameComponent }
 
 @serializable({ exclude: ['vm'] })
 export class FrameBind {
-    static number = 0
+    private static number = 0
+    readonly id = FrameBind.number++
 
     vm?: FrameComponent
 

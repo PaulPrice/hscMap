@@ -18,7 +18,7 @@ export class M31Layer extends TextureTileLayer {
     }
 
     protected async loadOneTile(tile: TextureTileBase) {
-        let url = `/data/m31/${tile.level}/${tile.j}/${tile.i}.png`
+        let url = `data/m31/${tile.level}/${tile.j}/${tile.i}.png`
         let img = await image.load(url)
         tile.texture.setImage(img)
     }

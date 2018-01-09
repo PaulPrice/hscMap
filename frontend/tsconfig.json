@@ -10,7 +10,6 @@
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
         "experimentalDecorators": true,
-        "isolatedModules": true,
         "noEmitHelpers": true,
         "importHelpers": true,
         "strict": true,

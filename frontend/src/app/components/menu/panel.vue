@@ -7,6 +7,7 @@ xMenuBarItem(label="Window")
     xMenuItem(label="About HSC SSP...", :checked="$root.s.panelManager.about.opened", @click="$root.s.panelManager.toggle('about')")
     xDivider
     xMenuItem(label="Devel", :checked="$root.s.panelManager.devel.opened", @click="$root.s.panelManager.toggle('devel')", accessKey="shift+ctrl+D")
+    xMenuItem(label="Citizen Science", :checked="$root.s.panelManager.citizenScience.opened", @click="$root.s.panelManager.toggle('citizenScience')", accessKey="shift+ctrl+C")
 </template>
 
 

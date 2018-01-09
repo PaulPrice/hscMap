@@ -5,6 +5,7 @@ import { Globe, GridTic, Layer, TextureTileLayer } from "stellar-globe"
 import { CatalogObserver } from "./catalog_observer"
 import { angle2sexadcimal } from "../../utils/format";
 import { sprintf } from "sprintf-js"
+// import { HipsLayer } from "../../../stellar-globe/layers/hips_layer"
 
 
 const components = {
@@ -28,6 +29,7 @@ export class FrameComponent extends Vue {
         this.globe = new Globe(this.$refs.globe as HTMLElement)
         // TODO: remove following lines
         // new RingsTractLayer(this.globe)
+        // new HipsLayer(this.globe)
         this.value.onMount(this)
         runWatchers(this)
     }

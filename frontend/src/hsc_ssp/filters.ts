@@ -12,6 +12,7 @@ const filters = [
     new Filter('HSC-I', 'i', 771.13165993),
     new Filter('HSC-Z', 'z', 892.490879581),
     new Filter('HSC-Y', 'Y', 1002.8270929),
+    new Filter('NB0387', '387', 387),
     new Filter('NB0816', '816', 816),
     new Filter('NB0921', '921', 921),
     // new Filter('CLAUDS-U', 'u', 365),
@@ -20,6 +21,8 @@ const filters = [
 ]
 
 filters.sort((a, b) => a.wavelength - b.wavelength)
+
+export const broadBandFilters = filters.filter(f => f.name.match(/^HSC-/))
 
 Object.freeze(filters)
 

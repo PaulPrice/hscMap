@@ -30,7 +30,7 @@ export class ConstellationsLayer extends PathLayer {
     }
 
     async load() {
-        const constellations = await (await fetch(constellationsDataFile)).json() as { [name: string]: Constellation }
+        const constellations = await (await fetch(constellationsDataFile, { credentials: 'include' })).json() as { [name: string]: Constellation }
         this.stroke(pen => {
             pen.width = 0.005
             for (let name of Object.keys(constellations)) {
@@ -58,7 +58,7 @@ export class ConstellationNamesLayer extends SpriteLayer {
     }
 
     async startLoading() {
-        const constellations = await (await fetch(constellationsDataFile)).json() as { [name: string]: Constellation }
+        const constellations = await (await fetch(constellationsDataFile, { credentials: 'include' })).json() as { [name: string]: Constellation }
         const textures: { [name: string]: { imageData: ImageData } } = {}
         const sprites: { name: string, position: math.Vector3 }[] = []
         for (const name in constellations) {
@@ -68,7 +68,7 @@ export class ConstellationNamesLayer extends SpriteLayer {
             }
             sprites.push({
                 name,
-                position: centroid(c.stars),
+                position: centroid(c.stars) as [number, number, number],
             })
         }
         this.setData(textures, sprites)
@@ -111,7 +111,7 @@ function centroid(stars: Star[]) {
     let g: math.Vector3 = [0, 0, 0]
     for (const s of stars)
         star2xyz(s).forEach((c, i) => g[i] += c)
-    g = g.map(c => c / stars.length)
+    g = g.map(c => c / stars.length) as [number, number, number]
     const r = Math.sqrt(g.reduce((sum, c) => sum + c * c, 0))
     return g.map(c => c / r)
 }
@@ -218,7 +218,7 @@ const japaneseHiragana: { [name: string]: string } = {
     "Ara": "さいだん",
     "Aries": "おひつじ",
     "Auriga": "ぎょしゃ",
-    "Boötes": "うしかいい",
+    "Boötes": "うしかい",
     "Caelum": "ちょうこくぐ",
     "Camelopardalis": "キリン",
     "Cancer": "かに",

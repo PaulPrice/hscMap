@@ -1,13 +1,13 @@
 import { Program, image, ImageLike, TextureTileBase as Tile } from 'stellar-globe'
 import BaseMixer from '../base_mixer'
-import { filters } from '../../../../filters'
+import { broadBandFilters } from '../../../../filters'
 import vertSource from 'raw-loader!./vert.glsl'
 import fragSource from 'raw-loader!./frag.glsl'
 
 
 
 export const defaultParams = {
-    filters: filters.slice(0, 3).reverse().map(f => f.name),
+    filters: broadBandFilters.slice(0, 3).reverse().map(f => f.name),
     min: -0.05,
     max: 2 / 3,
     logA: 10,
@@ -23,7 +23,7 @@ export class SimpleRgbMixer extends BaseMixer {
     tileImageUrls(tile: Tile) {
         const [depth, tractNum] = tile.tract.id.split('-')
         return this.filters.map(f => {
-            return `/data/ssp_tiles/${depth}/${f}/${tractNum}/${tile.level}/${tile.j}/${tile.i}.png`
+            return `data/ssp_tiles/${depth}/${f}/${tractNum}/${tile.level}/${tile.j}/${tile.i}.png`
         })
     }
 

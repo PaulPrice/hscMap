@@ -1,0 +1,34 @@
+@startuml citizen science
+
+Galaxy o- Test
+User o- Test
+
+class Galaxy {
+    id: int
+    name: string
+}
+
+class User {
+    id: int
+    name: string
+    mail: string
+}
+
+class Test {
+    id: int
+    galaxy_id: int
+    user_id: int
+    interacting: boolean
+    disk_arms: boolean
+    rings: boolean
+    tidal_stream: boolean
+    shell_fan: boolean
+    perturbed_halo: boolean
+    multiple_nuclei: boolean
+    companion_galaxy: boolean
+    how_bright: string
+    comment: string
+}
+
+
+@enduml

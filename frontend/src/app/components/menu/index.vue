@@ -3,7 +3,7 @@ xMenuBar(:fullscreen="$root.s.viewState.fullscreen")
     myHscMap3Menu
     myViewMenu
     myFrameMenu
-    //- myBookmark
+    //- myBookmark 
     myDatasetMenu
     myPanelMenu
 </template>
