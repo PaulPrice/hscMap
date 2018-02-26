@@ -1,6 +1,6 @@
 import argparse
 import numpy
-import pyfits
+import astropy.io.fits
 import logging
 import math
 import logging ; logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
@@ -42,7 +42,7 @@ def stitchedHdu(files, boundary, nodata=float('nan'), meta_index=0, image_index=
     fluxMag0 = None
     for fname in decompressFiles(files):
         logging.info('pasting %(fname)s...' % locals())
-        with pyfits.open(fname) as hdul:
+        with astropy.io.fits.open(fname) as hdul:
             if fluxMag0 is None and 'FLUXMAG0' in hdul[meta_index].header:
                 fluxMag0 = hdul[0].header['FLUXMAG0']
             header = hdul[image_index].header
@@ -61,7 +61,7 @@ def stitchedHdu(files, boundary, nodata=float('nan'), meta_index=0, image_index=
     ref_point_phys2 = crpix2 - header['LTV2']
     logging.info('reference point in physics coordinate: %d %d' % (ref_point_phys1, ref_point_phys2))
 
-    hdu = pyfits.ImageHDU(pool)
+    hdu = astropy.io.fits.ImageHDU(pool)
     header['CRPIX1'] = -minx
     header['CRPIX2'] = -miny
     header['LTV1'] = header['CRPIX1'] - ref_point_phys1
