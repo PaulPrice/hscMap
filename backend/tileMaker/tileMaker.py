@@ -26,8 +26,8 @@ def main():
     parser.add_argument('--filters', '-f', nargs='+')
     parser.add_argument('--info-only', action='store_true')
     args = parser.parse_args()
-    args.tracts = getTracts(args)
-    args.filters = getFilters(args)
+#    args.tracts = getTracts(args)
+#    args.filters = getFilters(args)
 
     for tract in args.tracts:
         if not args.info_only:
@@ -41,7 +41,7 @@ def getTracts(args):
     if args.tracts is not None:
         return args.tracts
     else:
-        return list(set([path.split('/')[-1] for path in glob.glob('%s/deepCoadd/*/*' % args.inDir)]))
+        return list(set([path.split('/')[-1] for path in glob.glob('%s/deepCoadd-results/*/*' % args.inDir)]))
 
 
 def getFilters(args):
@@ -54,13 +54,13 @@ def getFilters(args):
 def makeTractData(args, tract):
     boundary = ((-18000, -18000), (18000, 18000))
     rawAllPatchFiles = glob.glob(
-        '%s/deepCoadd/*/%s/*,*/calexp-*.fits*' % (args.inDir, tract))
+        '%s/deepCoadd-results/*/%s/*,*/calexp-*.fits*' % (args.inDir, tract))
 
     for filterName in args.filters:
         logging.info('makeTractData (%s:%s)...' % (tract, filterName))
         stitchedFits = '%s/tmp/stitched/%s/%s.fits' % (
             args.outDir, tract, filterName)
-        patchFiles = glob.glob('%s/deepCoadd/%s/%s/*,*/calexp-%s-*.fits*' %
+        patchFiles = glob.glob('%s/deepCoadd-results/%s/%s/*,*/calexp-%s-*.fits*' %
                                (args.inDir, filterName, tract, filterName))
 
         if len(patchFiles) > 0:
